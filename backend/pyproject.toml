@@ -36,6 +36,9 @@ markdown = "^3.7.0"
 black = "^24.10.0"
 unittest-xml-reporting = "^3.2.0"
 
+[tool.poetry.extras]
+bjoern = ["bjoern"]
+
 [tool.poetry.scripts]
 app = 'run:main'
 admin = 'manage:main'
